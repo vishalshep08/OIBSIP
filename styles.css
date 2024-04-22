@@ -1,54 +1,140 @@
+.navbarScroll.navbarDark {
+  background-color: black;
+}
+
+.bgimage {
+  height: 100vh;
+  background: url(Background.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.hero_title {
+  font-size: 4.5rem;
+}
+
+.hero_desc {
+  font-size: 2rem;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.imageAboutPage {
+  width: 20%;
+  height: 20%;
+  margin-right: 100%;
+}
+
+.aboutme {
+  text-align: center;
+}
+
+.portimg {
+  width: 20%;
+  height: 20%;
+  margin-right: 100%;
+
+}
+
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card:hover .servicesIcon {
+  color: #008000;
+}
+
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+
+.navbar navbar-expand-lg fixed-top navbarScroll {
+  background-color: black;
+}
+
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+
+#about,
+#services,
+#portfolio,
+#contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+
+#contact {
+  padding-bottom: 4rem;
+}
+
 body {
-    background-image: url(Background\ 3.jpg);
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: 1900px 1250px;
+  background-color: rgba(173, 159, 130, 0.806);
 }
 
-.topnav {
-    background-color: #333;
-    overflow: hidden;
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
 }
 
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+.row {
+  display: flex;
 }
 
-.key {
-    text-align: center;
-    position: relative;
-    top: 10px;
-    left: 270px;
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 
-.quote {
-    text-align: center;
-    position: relative;
-    left: 300px;
-    right: 50px;
+.shop {
+  margin-left: 10%;
 }
 
-.membership {
-    color: black;
-    text-align: center;
-    position: relative;
-    top: -10px;
-    right: 10px;
+.temp {
+  margin: 0;
 }
 
-.footer {
-    color: black;
-    position: relative;
-    top: 80px;
-    bottom: 0px;
+.page {
+  margin-right: 10%;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.port {
+  text-align: center;
+}
+
+.copyright-text {
+  text-align: center;
 }
